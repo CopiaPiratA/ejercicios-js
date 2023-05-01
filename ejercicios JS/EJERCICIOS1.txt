@@ -1,0 +1,202 @@
+
+1) Escribe un bucle while que lea los enteros de la entrada y calcule el entero finalNum como sigue:
+- Si la entrada es impar, suma la entrada multiplicada por 2 a Número final.
+- En caso contrario, resta la entrada dividida por 2 de número final.
+El bucle itera hasta que se lee un entero negativo.
+Ej: Si la entrada es 6 3 4 -2, entonces la salida es:
+finalNum es 1
+
+------------------------------------------------------------------------------------------------------------------------
+
+2) Desarrolle un programa que sume los primeros 20 números impares.
+
+------------------------------------------------------------------------------------------------------------------------
+
+3) Imprimir los números perfectos en un rango de números enteros determinado por el usuario.
+
+------------------------------------------------------------------------------------------------------------------------
+
+4) Realizar un programa que:
+a. Muestre todos los números primos entre 1 y 100. (Un nro. es primo cuando es 
+divisible solamente por 1 y por sí mismo)
+b. Contar y mostrar la cantidad de primos encontrados.
+
+------------------------------------------------------------------------------------------------------------------------
+
+5) Dado un número entero positivo se dice que el crápulo es el número que se obtiene
+sumando los dígitos que lo componen. Si el valor de la suma es menor que 10, el 
+crápulo es el valor obtenido; sino el crápulo es el crápulo de la suma de los 
+dígitos.
+Ejemplo:
+Número		Crápulo
+     7               7
+    13               4
+   492               6
+  5678               8
+Desarrollar un programa que lea un entero positivo y muestre el valor de su crápulo.
+
+------------------------------------------------------------------------------------------------------------------------
+
+6) Nicómano de Gerasa descubrió la siguiente propiedad de los números naturales:
+  * Al sumar el primer impar se obtiene el primer cubo: 1 = 1
+  * Al sumar los dos siguientes impares se obtiene el segundo cubo: 3+5 = 2³ = 8
+  * Al sumar los tres siguientes impares se obtiene el tercer cubo: 7+9+11 = 3³ = 27
+  * Al sumar los cuatro siguientes impares se obtiene el cuarto cubo: 13+15+17+19 = 4³ = 64
+  * ...etc...
+Escribir un programa para ingresar un número entero positivo y calcular su cubo, 
+utilizando exclusivamente esta propiedad.
+
+------------------------------------------------------------------------------------------------------------------------
+
+7) Escribir un programa que encuentre los 3 elementos que sumen 0 a partir de números reales.
+Entrada: [-25, -10, -7, -3, 2, 4, 8, 10]
+Salida: [[-10, 2, 8], [-7, -3, 10]]
+
+------------------------------------------------------------------------------------------------------------------------
+
+8) Se realizó un concurso de tiro al blanco. Existen 5 participantes y cada uno de ellos efectúa 3 disparos, 
+registrándose las coordenadas X-Y de cada disparo.
+Determinar:
+a. Cuantos disparos se efectuaron en cada cuadrante por cada participante
+b. Cuantos disparos se efectuaron en total en el centro.
+NOTA: No considere disparos sobre los ejes.
+
+------------------------------------------------------------------------------------------------------------------------
+
+9) Dada la cadena userStr en una línea y los enteros idx1 e idx2 en una segunda línea,
+la salida "Matching" si el carácter en el índice idx1 de userStr es igual al carácter 
+en el índice idx2. En caso contrario, aparece "Not matching". 
+Termine con una nueva línea.
+Ejemplo:
+Entrada:
+plátano
+4 2
+Salida: 
+Matching
+Nota:
+Supongamos que la longitud de la cadena userStr es mayor o igual que idx1 e idx2.
+
+------------------------------------------------------------------------------------------------------------------------
+
+10) Escribe un programa que permita al usuario introducir la precipitación total de cada uno de los 12 meses.
+El programa debe calcular y mostrar la precipitación total del año, la precipitación media mensual y los meses con las 
+cantidades más altas y más bajas.
+Los meses deben expresarse con los nombres en español de los meses del calendario gregoriano, es decir: Enero, Febrero, 
+Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre.
+Validación de la entrada: No acepte números negativos para las cifras de precipitaciones mensuales. Cuando se introduce 
+un valor negativo, el programa indica "Dato no válido (precipitación negativa) -- reintentar" e intenta releer el valor.
+
+------------------------------------------------------------------------------------------------------------------------
+
+11) Escribe una función "alphaSort" que ordene un array de cadenas alfabéticamente.
+Ejemplos:
+alphaSort(['b', 'a', 'c']) -> ['a', 'b', 'c']
+
+------------------------------------------------------------------------------------------------------------------------
+
+12) Escribe una función "strLengthSort" que ordene un array de cadenas por la longitud de
+cada cadena. Coloca las cadenas más cortas primero.
+Ejemplos:
+strLengthSort(['Manzana', 'Plátano', 'Cereza']) -> ['Manzana', 'Cereza', 'Plátano']
+
+------------------------------------------------------------------------------------------------------------------------
+
+13) Escribir una función to_upper_case que reciba un string y devuelva el string convertido a mayúsculas.
+
+------------------------------------------------------------------------------------------------------------------------
+
+14) Haga un programa que reciba una palabra del usuario y un número entero menor que 26.
+El programa debe cambiar cada letra por la que le corresponda al dar saltos en el
+alfabeto de acuerdo al número especificado por el usuario. La nueva palabra codificada
+deberá ser mostrada en pantalla.
+
+------------------------------------------------------------------------------------------------------------------------
+
+15) Una función recibe un día de la semana expresado en 3 letras 'MON', 'TUE', 'WED',
+etc y un número (puede ser de 0 a 500). La función debe devolver el día que 
+corresponde a la suma del día dado y el número.
+Ej:
+funcion('MON', 7) debe devolver 'MON'.
+funcion('MON', 2) debe devolver 'WED'.
+funcion('TUE', 15) debe devolver 'WED'.
+
+------------------------------------------------------------------------------------------------------------------------
+
+16) Ingresar un número entero mayor a 0. Debe dibujar un triángulo rectángulo con * con tantas filas como el número indicado.
+En cada fila se va incrementando la cantidad de asteriscos. Por ejemplo, si se ingresa el número 6 debe mostrar en
+pantalla:
+*
+**
+***
+****
+*****
+******
+
+------------------------------------------------------------------------------------------------------------------------
+
+17) Ingresar un número entero mayor a 0. Debe dibujar una pirámide con * con tantas filas como el número indicado. En cada 
+fila se va incrementando la cantidad de asteriscos de 2 en 2.
+Por ejemplo, si se ingresa el número 5 debe mostrar en pantalla:
+    *
+   ***
+  *****
+ *******
+*********
+
+------------------------------------------------------------------------------------------------------------------------
+
+18) Tomando como base el ejercicio anterior ingresar un número entero mayor a 0 y dibujar un rombo con *. Por ejemplo, si se
+ingresa el número 5 dibuja la pirámide de 5 filas y luego completa el rombo al ir decrementando la cantidad de asteriscos.
+*
+***
+*****
+*******
+*********
+*******
+*****
+***
+*
+
+------------------------------------------------------------------------------------------------------------------------
+
+19) Realizar un programa que muestre por pantalla las tablas de multiplicar del 1 al 9 de la siguiente forma:
+1  2  3  4  5  6  7  8  9
+2  4  6  8 10 12 14 16 18
+3  6  9 12 15 18 21 24 27
+4  8 12 16 20 24 28 32 36
+5 10 15 20 25 30 35 40 45
+6 12 18 24 30 36 42 48 54
+7 14 21 28 35 42 49 56 63
+8 16 24 32 40 48 56 64 72
+9 18 27 36 45 54 63 72 81
+
+------------------------------------------------------------------------------------------------------------------------
+
+20) El juego de los 23 cerillos se juega entre 2 participantes.
+Consiste en colocar 23 cerillos sobre la mesa y cada jugador puede retirar 1, 2 o 3 cerillos
+por turno.
+El jugador que retira el último cerillo pierde y es eliminado.
+Realice un programa que permita a dos participantes jugar el juego de los 23 cerillos.
+
+Ejemplo de ejecución:
+Inicia el juego
+||||| ||||| ||||| ||||| |||
+Jugador 1 retira: 3
+||||| ||||| ||||| |||||
+Jugador 2 retira: 3
+||||| ||||| ||||| ||
+Jugador 1 retira: 3
+||||| ||||| ||||
+Jugador 2 retira: 1
+||||| ||||| |||
+Jugador 1 retira: 3
+||||| |||||
+Jugador 2 retira: 3
+||||| ||
+Jugador 1 retira: 2
+|||||
+Jugador 2 retira: 1
+||||
+Jugador 1 retira: 3
+|
+El jugador 2 es eliminado.
